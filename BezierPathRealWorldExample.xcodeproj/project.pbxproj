@@ -17,6 +17,7 @@
 		7659DFA021977EF300867496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7659DF9E21977EF300867496 /* LaunchScreen.storyboard */; };
 		7659DFAB21977EF400867496 /* BezierPathRealWorldExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7659DFAA21977EF400867496 /* BezierPathRealWorldExampleTests.swift */; };
 		7659DFB621977EF400867496 /* BezierPathRealWorldExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7659DFB521977EF400867496 /* BezierPathRealWorldExampleUITests.swift */; };
+		76EC30CA219781B300F27E80 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC30C9219781B300F27E80 /* AvatarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		7659DFB121977EF400867496 /* BezierPathRealWorldExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPathRealWorldExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7659DFB521977EF400867496 /* BezierPathRealWorldExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathRealWorldExampleUITests.swift; sourceTree = "<group>"; };
 		7659DFB721977EF400867496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EC30C9219781B300F27E80 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		9D1FF6119B8149CE14E95E8D /* Pods_BezierPathRealWorldExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BezierPathRealWorldExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D010469DF573486E303FA227 /* Pods_BezierPathRealWorldExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BezierPathRealWorldExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE970DE38BAE0E24F0404C61 /* Pods-BezierPathRealWorldExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BezierPathRealWorldExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BezierPathRealWorldExampleUITests/Pods-BezierPathRealWorldExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				7659DF9521977EF100867496 /* AppDelegate.swift */,
 				7659DF9721977EF100867496 /* ViewController.swift */,
 				7659DF9921977EF100867496 /* Main.storyboard */,
+				76EC30C9219781B300F27E80 /* AvatarView.swift */,
 				7659DF9C21977EF300867496 /* Assets.xcassets */,
 				7659DF9E21977EF300867496 /* LaunchScreen.storyboard */,
 				7659DFA121977EF300867496 /* Info.plist */,
@@ -376,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7659DF9821977EF100867496 /* ViewController.swift in Sources */,
+				76EC30CA219781B300F27E80 /* AvatarView.swift in Sources */,
 				7659DF9621977EF100867496 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

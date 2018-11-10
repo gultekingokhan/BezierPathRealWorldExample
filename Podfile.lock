@@ -1,0 +1,16 @@
+PODS:
+  - GGShadowedView (0.1.1)
+
+DEPENDENCIES:
+  - GGShadowedView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GGShadowedView
+
+SPEC CHECKSUMS:
+  GGShadowedView: c2affd54128de0298586b13387d8ffd8e16f4aeb
+
+PODFILE CHECKSUM: 987d1596746c1ca5f7dfcabd48ce14656f8be883
+
+COCOAPODS: 1.5.3

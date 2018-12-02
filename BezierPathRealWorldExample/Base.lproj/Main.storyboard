@@ -18,9 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="pM2-aa-bYd">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1e8-lM-57f">
                                 <rect key="frame" x="42.5" y="103.5" width="290" height="460"/>
                                 <subviews>
@@ -130,10 +127,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="1e8-lM-57f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2t3-k0-d7t"/>
-                            <constraint firstItem="pM2-aa-bYd" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="E5w-oi-JC5"/>
-                            <constraint firstItem="pM2-aa-bYd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FiH-5N-x6L"/>
-                            <constraint firstItem="pM2-aa-bYd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ivw-qe-wfN"/>
-                            <constraint firstAttribute="trailing" secondItem="pM2-aa-bYd" secondAttribute="trailing" id="MT8-hQ-6B1"/>
                             <constraint firstItem="1e8-lM-57f" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uAT-ZX-Xo2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -151,6 +144,5 @@
     </scenes>
     <resources>
         <image name="avatar" width="4896" height="3264"/>
-        <image name="background" width="3456" height="3456"/>
     </resources>
 </document>
